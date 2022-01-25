@@ -1,4 +1,4 @@
-# GSP349 Deploy and Manage Apigee X: Challenge Lab
+# [GSP349 Deploy and Manage Apigee X: Challenge Lab](https://www.cloudskillsboost.google/focuses/20940?parent=catalog)
 
 ## Task 1. Modify the environments and environment groups
 - Open the [Apigee Console](https://apigee.google.com).
