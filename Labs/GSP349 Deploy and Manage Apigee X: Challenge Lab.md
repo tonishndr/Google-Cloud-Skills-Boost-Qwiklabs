@@ -12,7 +12,7 @@
 - In the upper right corner, click ***+Environment Group***.
 - Name the environment group ***[ staging-group ]***, and then click ***Add***.
 - In the ***[ staging-group ]*** environment group box, click the ***edit*** (pencil) button (pencil icon).
-- In the Environments box, click the ***+ button***.
+- In the ***Environments*** box, click the ***+ button***.
 - Select the ***[ staging ]*** environment, and then click ***Add***.
 - Leave the default hostname that is created for the new environment group.
 
