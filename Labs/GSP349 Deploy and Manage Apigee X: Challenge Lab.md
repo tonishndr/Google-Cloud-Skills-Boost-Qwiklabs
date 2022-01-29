@@ -1,5 +1,5 @@
 # [GSP349 Deploy and Manage Apigee X: Challenge Lab](https://www.cloudskillsboost.google/focuses/20940?parent=catalog)
-
+### [Video Guide](abc.com)
 ## Task 1. Modify the environments and environment groups
 - Open the [Apigee Console](https://apigee.google.com).
 #### Add staging environment
