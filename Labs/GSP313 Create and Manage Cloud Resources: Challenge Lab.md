@@ -20,7 +20,7 @@
 
 - `gcloud container clusters create [Cluster name]`
 - `gcloud container clusters get-credentials [Cluster name]`
-- `kubectl create deployment hello-server gcr.io/google-samples/hello-app:2.0`
+- `kubectl create deployment hello-server --image=gcr.io/google-samples/hello-app:2.0`
 - `kubectl expose deployment hello-server --type=LoadBalancer --port [App port number]`
 </details>
 
