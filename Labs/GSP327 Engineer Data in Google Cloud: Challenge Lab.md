@@ -29,8 +29,8 @@ WHERE
   AND passenger_count > 3 [Change_as_mention_in_lab]
 </details>
 
-
--- Task 2
+<details><summary>Task 2. Create a BigQuery ML model</summary>
+</br>
 
 CREATE OR REPLACE MODEL
   taxirides.<MODEL Name_as_mention_in_lab> TRANSFORM( * EXCEPT(pickup_datetime),
@@ -47,8 +47,10 @@ AS
   FROM
     taxirides.<Table_Name_as_mention_in_lab>
 
+</details>
 
--- Task 3
+<details><summary>Task 3. Perform a batch prediction on new data</summary>
+</br>
 
 CREATE OR REPLACE TABLE
   taxirides.2015_fare_amount_predictions AS
@@ -61,3 +63,6 @@ FROM
       *
     FROM
       taxirides.report_prediction_data) )
+
+</details>
+
