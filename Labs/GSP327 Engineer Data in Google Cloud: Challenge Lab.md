@@ -1,7 +1,7 @@
 # [GSP327 Engineer Data in Google Cloud: Challenge Lab.sql](https://www.cloudskillsboost.google/focuses/12379?parent=catalog)
 <details><summary>Task 1. Clean your training data</summary>
 </br>
-
+``` sql
 CREATE OR REPLACE TABLE
   taxirides.<Table_Name_as_mention_in_lab> AS
 SELECT
@@ -27,6 +27,7 @@ WHERE
   AND dropoff_latitude > 37
   AND dropoff_latitude < 45
   AND passenger_count > 3 [Change_as_mention_in_lab]
+ ```
 </details>
 
 <details><summary>Task 2. Create a BigQuery ML model</summary>
