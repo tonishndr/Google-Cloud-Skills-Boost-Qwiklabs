@@ -1,4 +1,13 @@
 # [GSP327 Engineer Data in Google Cloud: Challenge Lab.sql](https://www.cloudskillsboost.google/focuses/12379?parent=catalog)
+
+<details><summary>Task 1. Clean your training data</summary>
+``` sql
+SELECT * FROM EMP JOIN DEPT ON EMP.DEPTNO = DEPT.DEPTNO;
+```
+</details>
+
+
+
 <details><summary>Task 1. Clean your training data</summary>
 </br>
 ``` sql
