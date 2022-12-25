@@ -1,17 +1,10 @@
 # [GSP327 Engineer Data in Google Cloud: Challenge Lab.sql](https://www.cloudskillsboost.google/focuses/12379?parent=catalog)
 
-<details><summary>Task 1. Clean your training data</summary>
-``` sql
-SELECT * FROM EMP JOIN DEPT ON EMP.DEPTNO = DEPT.DEPTNO;
-```
-</details>
-
-
 
 <details><summary>Task 1. Clean your training data</summary>
 </br>
-``` sql
-CREATE OR REPLACE TABLE
+
+- CREATE OR REPLACE TABLE
   taxirides.<Table_Name_as_mention_in_lab> AS
 SELECT
   (tolls_amount + fare_amount) AS <Fare Amount_as_mention_in_lab>,
